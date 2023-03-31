@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="p-0 m-0 w-full flex h-screen justify-center items-center font-sans font-normal bg-blue-700 bg-gradient-to-r from-green-800">
+
+ <div class="calcbody border rounded shadow-2xl grid justify-center content-center grid-cols-4 grid-rows-5 w-48 h-64">
+
+    <div class="output col-span-full bg-black bg-opacity-75 flex items-end justify-space-around flex-col break-words break-all px-1">
+        <div data-previous class="previousno text-white opacity-75 text-md "></div>
+        <div data-current class="currentno text-white text-md" ></div>
+    </div>
+
+    <button class="text-2xl bg-white bg-opacity-75 border border-white col-span-2 cursor-pointer hover:bg-opacity-90" data-all-clear="">AC</button> 
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-delete>DEL</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-operation>/</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>1</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>2</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>3</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-operation>*</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>4</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>5</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>6</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-operation>+</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>7</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>8</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>9</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90"data-operation>-</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>.</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90" data-number>0</button>
+    <button class="text-2xl bg-white bg-opacity-75 border border-white cursor-pointer hover:bg-opacity-90 col-span-2" data-equals>=</button>
+
+ </div>
+
+    
+</body>
+</html>
